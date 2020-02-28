@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36,16 +36,16 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -173,6 +173,52 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <rectangle x1="-0.15" y1="0.65" x2="0.15" y2="1.2" layer="51"/>
 <rectangle x1="-0.8" y1="-1.2" x2="-0.5" y2="-0.65" layer="51"/>
 <rectangle x1="0.5" y1="-1.2" x2="0.8" y2="-0.65" layer="51"/>
+</package>
+<package name="DFN8-MF">
+<smd name="1" x="-1.6375" y="0.975" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="-1.6375" y1="0.975" x2="-1.4" y2="0.975" width="0.35" layer="1"/>
+<wire x1="-1.6375" y1="0.975" x2="-1.4" y2="0.975" width="0.35" layer="31"/>
+<wire x1="-1.6375" y1="0.975" x2="-1.4" y2="0.975" width="0.45" layer="29"/>
+<rectangle x1="-1.8875" y1="0.7125" x2="-1.4375" y2="1.2375" layer="29" rot="R270"/>
+<text x="-1" y="1.7" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-0.7" y1="1.45" x2="0.7" y2="1.45" width="0.15" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="0.7" y2="-1.45" width="0.15" layer="21"/>
+<circle x="-2.262178125" y="1.342690625" radius="0.071825" width="0.3" layer="21"/>
+<smd name="2" x="-1.6375" y="0.325" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="-1.6375" y1="0.325" x2="-1.4" y2="0.325" width="0.35" layer="1"/>
+<wire x1="-1.6375" y1="0.325" x2="-1.4" y2="0.325" width="0.35" layer="31"/>
+<wire x1="-1.6375" y1="0.325" x2="-1.4" y2="0.325" width="0.45" layer="29"/>
+<rectangle x1="-1.8875" y1="0.0625" x2="-1.4375" y2="0.5875" layer="29" rot="R270"/>
+<smd name="3" x="-1.6375" y="-0.325" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="-1.6375" y1="-0.325" x2="-1.4" y2="-0.325" width="0.35" layer="1"/>
+<wire x1="-1.6375" y1="-0.325" x2="-1.4" y2="-0.325" width="0.35" layer="31"/>
+<wire x1="-1.6375" y1="-0.325" x2="-1.4" y2="-0.325" width="0.45" layer="29"/>
+<rectangle x1="-1.8875" y1="-0.5875" x2="-1.4375" y2="-0.0625" layer="29" rot="R270"/>
+<smd name="5" x="1.6375" y="-0.975" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="1.6375" y1="-0.975" x2="1.4" y2="-0.975" width="0.35" layer="1"/>
+<wire x1="1.6375" y1="-0.975" x2="1.4" y2="-0.975" width="0.35" layer="31"/>
+<wire x1="1.6375" y1="-0.975" x2="1.4" y2="-0.975" width="0.45" layer="29"/>
+<rectangle x1="1.4375" y1="-1.2375" x2="1.8875" y2="-0.7125" layer="29" rot="R270"/>
+<smd name="4" x="-1.6375" y="-0.975" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="-1.6375" y1="-0.975" x2="-1.4" y2="-0.975" width="0.35" layer="1"/>
+<wire x1="-1.6375" y1="-0.975" x2="-1.4" y2="-0.975" width="0.35" layer="31"/>
+<wire x1="-1.6375" y1="-0.975" x2="-1.4" y2="-0.975" width="0.45" layer="29"/>
+<rectangle x1="-1.8875" y1="-1.2375" x2="-1.4375" y2="-0.7125" layer="29" rot="R270"/>
+<smd name="6" x="1.6375" y="-0.325" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="1.6375" y1="-0.325" x2="1.4" y2="-0.325" width="0.35" layer="1"/>
+<wire x1="1.6375" y1="-0.325" x2="1.4" y2="-0.325" width="0.35" layer="31"/>
+<wire x1="1.6375" y1="-0.325" x2="1.4" y2="-0.325" width="0.45" layer="29"/>
+<rectangle x1="1.4375" y1="-0.5875" x2="1.8875" y2="-0.0625" layer="29" rot="R270"/>
+<smd name="7" x="1.6375" y="0.325" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="1.6375" y1="0.325" x2="1.4" y2="0.325" width="0.35" layer="1"/>
+<wire x1="1.6375" y1="0.325" x2="1.4" y2="0.325" width="0.35" layer="31"/>
+<wire x1="1.6375" y1="0.325" x2="1.4" y2="0.325" width="0.45" layer="29"/>
+<rectangle x1="1.4375" y1="0.0625" x2="1.8875" y2="0.5875" layer="29" rot="R270"/>
+<smd name="8" x="1.6375" y="0.975" dx="0.35" dy="0.475" layer="1" rot="R270" stop="no"/>
+<wire x1="1.6375" y1="0.975" x2="1.4" y2="0.975" width="0.35" layer="1"/>
+<wire x1="1.6375" y1="0.975" x2="1.4" y2="0.975" width="0.35" layer="31"/>
+<wire x1="1.6375" y1="0.975" x2="1.4" y2="0.975" width="0.45" layer="29"/>
+<rectangle x1="1.4375" y1="0.7125" x2="1.8875" y2="1.2375" layer="29" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -327,6 +373,135 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
+<symbol name="AON3419">
+<wire x1="-10.16" y1="5.08" x2="-9.144" y2="5.08" width="0.3048" layer="94"/>
+<wire x1="-9.144" y1="5.08" x2="10.16" y2="5.08" width="0.3048" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-2.54" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-10.16" y2="-7.62" width="0.3048" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="4.064" width="0.3048" layer="94"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="4.064" x2="-10.16" y2="5.08" width="0.3048" layer="94"/>
+<wire x1="-9.144" y1="5.08" x2="-10.16" y2="4.064" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="-0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-0.635" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.508" x2="1.905" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-0.508" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.905" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.508" x2="1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="1.778" x2="-0.508" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.032" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="3.048" x2="-0.254" y2="3.302" width="0.1524" layer="94"/>
+<circle x="-1.905" y="1.27" radius="0.3592" width="0" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<pin name="S1" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="G" x="-2.54" y="-10.16" length="short" direction="pas" rot="R90"/>
+<pin name="D1" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.508" y="2.54"/>
+<vertex x="0.254" y="3.048"/>
+<vertex x="0.254" y="2.032"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="1.27"/>
+<vertex x="-0.762" y="0.254"/>
+<vertex x="0.762" y="0.254"/>
+</polygon>
+<wire x1="-1.905" y1="2.54" x2="-4.445" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<circle x="-1.905" y="2.54" radius="0.3592" width="0" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-6.35" width="0.1524" layer="94"/>
+<pin name="S2" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="S3" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="D2" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="D3" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="D4" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="N-MOSFET">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-2.54" y="0" size="1.778" layer="96" rot="MR0">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
+<symbol name="P-MOSFET">
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="4.318" y="-0.254"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BCM857BS" prefix="Q">
@@ -397,6 +572,66 @@ Source: Infineon-BCR22PN-DS-v01_01-en.pdf</description>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AON3419" prefix="Q" uservalue="yes">
+<description>MOSFET P-CH 30V 10A DFN 
+P-Channel 30V 10A (Tc) 3.1W (Ta) Surface Mount 8-DFN (2.9x2.3)</description>
+<gates>
+<gate name="G$1" symbol="AON3419" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN8-MF">
+<connects>
+<connect gate="G$1" pin="D1" pad="8"/>
+<connect gate="G$1" pin="D2" pad="7"/>
+<connect gate="G$1" pin="D3" pad="6"/>
+<connect gate="G$1" pin="D4" pad="5"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="2"/>
+<connect gate="G$1" pin="S3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_NCH" prefix="Q" uservalue="yes">
+<description>General N-Channel SOT23 MOSFET library</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_PCH" prefix="Q" uservalue="yes">
+<description>General P-Channel SOT23 MOSFET library</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
