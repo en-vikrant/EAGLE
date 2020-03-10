@@ -838,9 +838,9 @@
 <wire x1="20.32" y1="73.66" x2="17.78" y2="73.66" width="0.254" layer="94"/>
 <wire x1="17.78" y1="73.66" x2="17.78" y2="71.12" width="0.254" layer="94"/>
 <wire x1="17.78" y1="71.12" x2="20.32" y2="71.12" width="0.254" layer="94"/>
-<wire x1="17.78" y1="71.12" x2="12.7" y2="69.85" width="0.254" layer="94"/>
-<wire x1="12.7" y1="69.85" x2="12.7" y2="53.34" width="0.254" layer="94"/>
-<wire x1="12.7" y1="50.8" x2="22.86" y2="50.8" width="0.254" layer="94"/>
+<wire x1="17.78" y1="71.12" x2="12.7" y2="71.12" width="0.254" layer="94"/>
+<wire x1="12.7" y1="71.12" x2="12.7" y2="53.34" width="0.254" layer="94"/>
+<wire x1="7.62" y1="50.8" x2="22.86" y2="50.8" width="0.254" layer="94"/>
 <wire x1="25.4" y1="63.5" x2="22.86" y2="63.5" width="0.254" layer="94"/>
 <wire x1="22.86" y1="63.5" x2="22.86" y2="60.96" width="0.254" layer="94"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="58.42" width="0.254" layer="94"/>
@@ -866,7 +866,6 @@
 <wire x1="17.78" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="15.24" y1="45.72" x2="7.62" y2="45.72" width="0.254" layer="94"/>
 <wire x1="15.24" y1="48.26" x2="7.62" y2="48.26" width="0.254" layer="94"/>
-<wire x1="12.7" y1="50.8" x2="7.62" y2="50.8" width="0.254" layer="94"/>
 <wire x1="12.7" y1="53.34" x2="7.62" y2="53.34" width="0.254" layer="94"/>
 <wire x1="19.05" y1="80.01" x2="20.32" y2="78.74" width="0.254" layer="94"/>
 <wire x1="20.32" y1="78.74" x2="19.05" y2="77.47" width="0.254" layer="94"/>
@@ -1900,8 +1899,8 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCIMX7D" prefix="U">
-<description>MCIMX7D Single ARM Cortex-A7 and Cortex-M4, 512 KB L2 Cache</description>
+<deviceset name="MCIMX7D" prefix="U" uservalue="yes">
+<description>MCIMX7D Single ARM Cortex-A7 and Cortex-M4, 512 KB L2 Cache, 19x19</description>
 <gates>
 <gate name="A" symbol="I.MX7D-POWER" x="-48.26" y="96.52"/>
 <gate name="B" symbol="I.MX7D-GND" x="-50.8" y="-99.06"/>
@@ -1931,12 +1930,12 @@
 <connect gate="A" pin="PCIE_VP_RX" pad="AA12"/>
 <connect gate="A" pin="PCIE_VP_TX" pad="AA11"/>
 <connect gate="A" pin="PVCC_GPIO_CAP" pad="V10"/>
-<connect gate="A" pin="VDDA_1P0_CAP" pad="AA9"/>
+<connect gate="A" pin="VDDA_1P0_CAP" pad="V3"/>
 <connect gate="A" pin="VDDA_1P8_IN@0" pad="V6"/>
 <connect gate="A" pin="VDDA_1P8_IN@1" pad="W5"/>
 <connect gate="A" pin="VDDA_MIPI_1P8" pad="J13"/>
 <connect gate="A" pin="VDDA_PHY_1P8" pad="Y9"/>
-<connect gate="A" pin="VDDD_1P0_CAP" pad="V3"/>
+<connect gate="A" pin="VDDD_1P0_CAP" pad="AA9"/>
 <connect gate="A" pin="VDD_1P2_CAP" pad="U9"/>
 <connect gate="A" pin="VDD_ARM@0" pad="C17"/>
 <connect gate="A" pin="VDD_ARM@1" pad="C20"/>
